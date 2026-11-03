@@ -2,10 +2,57 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-
 import 'app_colors.dart';
 
 class AppStyles {
+  static TextStyle scaled({
+    required double fontSize,
+    Color? color,
+    FontWeight fontWeight = FontWeight.normal,
+  }) => TextStyle(fontSize: fontSize, color: color, fontWeight: fontWeight);
+  static final TextStyle white14 = TextStyle(
+    fontSize: 14,
+    color: AppColors.whiteColor,
+  );
+  static final TextStyle white16 = TextStyle(
+    fontSize: 16,
+    color: AppColors.whiteColor,
+  );
+  static final TextStyle white20 = TextStyle(
+    fontSize: 20,
+    color: AppColors.whiteColor,
+  );
+  static final TextStyle boldWhite20 = TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.bold,
+    color: AppColors.whiteColor,
+  );
+  static final TextStyle black16 = TextStyle(
+    fontSize: 16,
+    color: AppColors.blackColor,
+  );
+  static final TextStyle primary15 = TextStyle(
+    fontSize: 15,
+    color: AppColors.primaryColor,
+  );
+  static final TextStyle primary14 = TextStyle(
+    fontSize: 14,
+    color: AppColors.primaryColor,
+  );
+  static final TextStyle primary16 = TextStyle(
+    fontSize: 16,
+    color: AppColors.primaryColor,
+  );
+  static final TextStyle boldWhite12 = TextStyle(
+    fontSize: 12,
+    fontWeight: FontWeight.bold,
+    color: AppColors.whiteColor,
+  );
+  static final TextStyle boldWhite24 = TextStyle(
+    fontSize: 24,
+    fontWeight: FontWeight.bold,
+    color: AppColors.whiteColor,
+  );
   static TextStyle regular14White = GoogleFonts.elMessiri(
     fontSize: 14,
     color: AppColors.whiteColor,

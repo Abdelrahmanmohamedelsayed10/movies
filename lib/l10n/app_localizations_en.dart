@@ -332,6 +332,44 @@ class AppLocalizationsEn extends AppLocalizations {
   String get homeAvailableNow => 'Available Now';
 
   @override
+  String get searchTitle => 'Search';
+
+  @override
+  String get searchHint => 'Search movies by title';
+
+  @override
+  String get searchClear => 'Clear search';
+
+  @override
+  String get searchPrompt => 'Search for a movie by title';
+
+  @override
+  String get searchNoResults => 'No movies found. Try another title.';
+
+  @override
+  String get searchError =>
+      'Search failed. Check your connection and try again.';
+
+  @override
+  String get searchTryAgain => 'Try again';
+
+  @override
+  String get searchUnknownYear => 'Year unavailable';
+
+  @override
+  String get browseTitle => 'Browse';
+
+  @override
+  String get browseNoMovies => 'No movies are available for this genre.';
+
+  @override
+  String get browseError =>
+      'Couldn\'t load movies. Check your connection and try again.';
+
+  @override
+  String get browseRetry => 'Try again';
+
+  @override
   String get homeWatchNow => 'Watch Now';
 
   @override
@@ -339,4 +377,16 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get homeSeeMore => 'See More';
+
+  @override
+  String get profileWishList => 'Wish List';
+
+  @override
+  String get profileHistory => 'History';
+
+  @override
+  String get profileWatchList => 'Watch List';
+
+  @override
+  String get profileExit => 'Exit';
 }

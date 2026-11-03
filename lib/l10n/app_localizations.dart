@@ -686,6 +686,78 @@ abstract class AppLocalizations {
   /// **'Available Now'**
   String get homeAvailableNow;
 
+  /// No description provided for @searchTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Search'**
+  String get searchTitle;
+
+  /// No description provided for @searchHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Search movies by title'**
+  String get searchHint;
+
+  /// No description provided for @searchClear.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear search'**
+  String get searchClear;
+
+  /// No description provided for @searchPrompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Search for a movie by title'**
+  String get searchPrompt;
+
+  /// No description provided for @searchNoResults.
+  ///
+  /// In en, this message translates to:
+  /// **'No movies found. Try another title.'**
+  String get searchNoResults;
+
+  /// No description provided for @searchError.
+  ///
+  /// In en, this message translates to:
+  /// **'Search failed. Check your connection and try again.'**
+  String get searchError;
+
+  /// No description provided for @searchTryAgain.
+  ///
+  /// In en, this message translates to:
+  /// **'Try again'**
+  String get searchTryAgain;
+
+  /// No description provided for @searchUnknownYear.
+  ///
+  /// In en, this message translates to:
+  /// **'Year unavailable'**
+  String get searchUnknownYear;
+
+  /// No description provided for @browseTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Browse'**
+  String get browseTitle;
+
+  /// No description provided for @browseNoMovies.
+  ///
+  /// In en, this message translates to:
+  /// **'No movies are available for this genre.'**
+  String get browseNoMovies;
+
+  /// No description provided for @browseError.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t load movies. Check your connection and try again.'**
+  String get browseError;
+
+  /// No description provided for @browseRetry.
+  ///
+  /// In en, this message translates to:
+  /// **'Try again'**
+  String get browseRetry;
+
   /// No description provided for @homeWatchNow.
   ///
   /// In en, this message translates to:
@@ -703,6 +775,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'See More'**
   String get homeSeeMore;
+
+  /// No description provided for @profileWishList.
+  ///
+  /// In en, this message translates to:
+  /// **'Wish List'**
+  String get profileWishList;
+
+  /// No description provided for @profileHistory.
+  ///
+  /// In en, this message translates to:
+  /// **'History'**
+  String get profileHistory;
+
+  /// No description provided for @profileWatchList.
+  ///
+  /// In en, this message translates to:
+  /// **'Watch List'**
+  String get profileWatchList;
+
+  /// No description provided for @profileExit.
+  ///
+  /// In en, this message translates to:
+  /// **'Exit'**
+  String get profileExit;
 }
 
 class _AppLocalizationsDelegate

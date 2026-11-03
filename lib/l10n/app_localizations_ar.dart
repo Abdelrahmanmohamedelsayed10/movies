@@ -331,6 +331,43 @@ class AppLocalizationsAr extends AppLocalizations {
   String get homeAvailableNow => 'متاح الآن';
 
   @override
+  String get searchTitle => 'بحث';
+
+  @override
+  String get searchHint => 'ابحث عن فيلم بالاسم';
+
+  @override
+  String get searchClear => 'مسح البحث';
+
+  @override
+  String get searchPrompt => 'ابحث عن فيلم باستخدام اسمه';
+
+  @override
+  String get searchNoResults => 'لم يتم العثور على أفلام. جرّب اسمًا آخر.';
+
+  @override
+  String get searchError => 'تعذر البحث. تحقق من اتصالك وحاول مرة أخرى.';
+
+  @override
+  String get searchTryAgain => 'إعادة المحاولة';
+
+  @override
+  String get searchUnknownYear => 'السنة غير متاحة';
+
+  @override
+  String get browseTitle => 'تصفح الأفلام';
+
+  @override
+  String get browseNoMovies => 'لا توجد أفلام متاحة لهذا النوع.';
+
+  @override
+  String get browseError =>
+      'تعذر تحميل الأفلام. تحقق من اتصالك وحاول مرة أخرى.';
+
+  @override
+  String get browseRetry => 'إعادة المحاولة';
+
+  @override
   String get homeWatchNow => 'شاهد الآن';
 
   @override
@@ -338,4 +375,16 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get homeSeeMore => 'عرض المزيد';
+
+  @override
+  String get profileWishList => 'قائمة الأمنيات';
+
+  @override
+  String get profileHistory => 'السجل';
+
+  @override
+  String get profileWatchList => 'قائمة المشاهدة';
+
+  @override
+  String get profileExit => 'خروج';
 }

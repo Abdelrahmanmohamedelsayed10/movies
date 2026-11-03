@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:movies_app/Ui/widgets/auth/auth_validators.dart';
+import 'package:movies_app/features/auth/domain/auth_validators.dart';
 
 void main() {
   test('accepts a valid email', () {

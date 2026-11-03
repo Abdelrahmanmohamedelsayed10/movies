@@ -4,6 +4,7 @@ class AppRoutes {
   static const String detailsRouteName = 'DetailsScreen';
 
   static const String registerRouteName = 'register_screen';
+  static const String loginRouteName = 'login_screen';
   static const String forgotPasswordRouteName = 'reset_password_screen';
   static const String updateProfileRouteName = 'update_profile_screen';
 }
